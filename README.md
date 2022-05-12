@@ -1,3 +1,15 @@
+# to run locally 
+npx hardhat run scripts/run.js
+
+# to redeploy 
+npx hardhat run scripts/deploy.js --network rinkeby
+
+# contract 
+may 11 current contract address
+0xA0b309ab08f6e1E9CD7939531AEE493dAA640862
+
+https://rinkeby.etherscan.io/address/0xA0b309ab08f6e1E9CD7939531AEE493dAA640862
+
 # Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
@@ -13,5 +25,3 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
-may 11 current contract address
-0xA0b309ab08f6e1E9CD7939531AEE493dAA640862
