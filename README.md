@@ -13,3 +13,5 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+To view the app type nft-minter1-frontend.vercel.app in a web browser
